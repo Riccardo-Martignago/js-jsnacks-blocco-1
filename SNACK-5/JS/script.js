@@ -6,7 +6,7 @@ for(let i = 0; i < 5 ; i++){
         array.push(numeroUtente)
     }
     else{
-        console.log('Non puo essere stampato nell array')
+        console.log('Non puo essere stampato nell array', numeroUtente)
     }
 }
 
