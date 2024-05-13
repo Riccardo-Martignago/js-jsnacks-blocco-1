@@ -1,6 +1,6 @@
 const nomeUtente = prompt ('Inserisci il tuo nome');
 const listaInvitati = ["Giuseppe", "Alessia","Gianmarco","Tony","Greta"]
-if(listaInvitati === nomeUtente){
+if(listaInvitati.includes(nomeUtente)){
     console.log('Puoi entrare')
 }
 else{
